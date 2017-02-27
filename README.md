@@ -12,7 +12,7 @@ automatically open in your browser. To run tests `npm test`.
 
 ### With more time I'd:
 
-* write MORE TESTS. I ran out of time and was only able to write some basic snapshot tests.
+* write MORE TESTS and actually make them pass. I ran out of time and was only able to write some basic snapshot tests <sub><sup>which fail</sup></sub>
 * preserve scroll location when the user hits the back button
-* hand roll my own code formatting so I'm not constrained by 'react-markdown'
+* hand roll my own code formatting so I'm not constrained by 'react-markdown'. (example of this: I can't make my @mention links have target=blank which is bad UI in it's own right but also for some reason if you navigate away and come back, all my styling disappears...)
 * add filters to limit results on home page, i.e. "only show me issues from the past month"
