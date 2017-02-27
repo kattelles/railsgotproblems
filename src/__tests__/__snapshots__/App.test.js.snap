@@ -1,0 +1,49 @@
+exports[`class Comment extends /* istanbul ignore next */_react.Component {
+  constructor() {
+    super();
+    this.state = {
+      userUrl: "",
+      userName: "",
+      userAvatar: "",
+      body: "" };
+
+  }
+
+  componentDidMount() {
+    let comment = this.props;
+    this.setState({
+      userUrl: comment.userUrl,
+      userName: comment.userName,
+      userAvatar: comment.userAvatar,
+      body: comment.body });
+
+  }
+
+  render() {
+    return (
+      /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'div', /* istanbul ignore next */{ className: 'comment', __source: { fileName: _jsxFileName, lineNumber: 27 }, __self: this },
+        /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'div', /* istanbul ignore next */{ className: 'avatar', __source: { fileName: _jsxFileName, lineNumber: 28 }, __self: this },
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'img', /* istanbul ignore next */{ role: 'presentation', src: this.state.userAvatar, __source: { fileName: _jsxFileName, lineNumber: 29 }, __self: this }),
+          /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'a', /* istanbul ignore next */{ href: this.state.userUrl, target: '_blank', __source: { fileName: _jsxFileName, lineNumber: 30 }, __self: this }, /* istanbul ignore next */'@', this.state.userName)),
+
+        /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */_reactMarkdown2.default, /* istanbul ignore next */{ className: 'markdown comment-body', source: this.state.body, __source: { fileName: _jsxFileName, lineNumber: 32 }, __self: this })));
+
+
+  }} renders Comment and matches snapshot 1`] = `
+<div
+  className="comment">
+  <div
+    className="avatar">
+    <img
+      role="presentation"
+      src={undefined} />
+    <a
+      href={undefined}
+      target="_blank">
+      @
+    </a>
+  </div>
+  <div
+    className="markdown comment-body" />
+</div>
+`;

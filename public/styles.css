@@ -1,0 +1,198 @@
+/*COLOR SCHEME
+blue: #caebf2
+carbon: #a9a9a9
+watermelon: #ff3b3f
+charcoal: #545454
+neutral: #efefef
+green: #3c938a*/
+
+/*general*/
+body {
+  font-family: 'Signika', sans-serif;
+  background-color: #efefef;
+  color: #545454;
+  overflow: auto;
+}
+
+header {
+  margin: 30px;
+  text-align: center;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+
+.app {
+  width: 90%;
+  margin: auto;
+}
+
+
+/*links*/
+a {
+  color: #545454;
+}
+
+a:hover {
+  color: #ff3b3f;
+}
+
+a:visited {
+  color: #3c938a;
+}
+
+a:visited:hover {
+  color: #ff3b3f;
+}
+
+/*buttons*/
+.button {
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.show-more-results .button{
+  width: 300px;
+}
+
+.button:hover {
+  background-color: #caebf2;
+  border: 1px solid #caebf2;
+}
+
+.back-button .button {
+  width: 100px;
+}
+
+/*avatar*/
+.avatar {
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+}
+
+/*issues and issue-details*/
+.issue-details-outer {
+  width: 85%;
+  margin: auto;
+}
+
+.issue {
+  background-color: white;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #a9a9a9;
+  border-radius: 5px;
+  display: flex;
+}
+
+.issue-details {
+  width: 700px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+}
+
+.issue-details-header {
+  padding: 10px;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.issue-details-state {
+  color: #3c938a;
+  font-weight: 600;
+  border: 1px solid #3c938a;
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.issue-details-date {
+  margin-bottom: 5px;
+  font-weight: 200;
+}
+
+.issue-title {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.issue-right {
+  margin: 20px;
+}
+
+.issue-number {
+  font-size: 20px;
+}
+
+.issue-summary {
+  margin: 5px;
+}
+
+/*labels*/
+.labels-group {
+  display: flex;
+}
+
+.issue-label {
+  background-color: #ccebee;
+  border-radius: 3px;
+  color: #606364;
+  padding: 5px;
+  margin: 5px;
+}
+
+/*comments*/
+.comment {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #a9a9a9;
+  border-radius: 5px;
+  display: flex;
+  background-color: white;
+}
+
+.comments-header {
+  font-size: 30px;
+  text-align: center;
+}
+
+.comment-body {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+/*etc*/
+.poarty-parrot {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.markdown {
+  overflow: auto;
+}
